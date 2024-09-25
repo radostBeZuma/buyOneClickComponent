@@ -1,0 +1,123 @@
+<?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {die();}
+
+/**
+ * @global CMain $APPLICATION
+ * @var array $arParams
+ * @var array $arResult
+ * @var CBitrixComponent $component
+ * @var CBitrixComponentTemplate $this
+ * @var string $templateName
+ * @var string $componentPath
+ */
+
+
+echo '<pre>';
+print_r($arResult);
+echo '</pre>';
+
+/*echo '<pre>';
+print_r($arParams);
+echo '</pre>';*/
+
+?>
+
+<? /*
+<div class="rbz-multilevel-menu">
+    <div class="rbz-multilevel-menu__item">
+        <div class="rbz-multilevel-menu__head">Сантехника</div>
+        <div class="rbz-multilevel-menu__elements">
+            <div class="rbz-multilevel-menu__element">Сантехника 1</div>
+            <div class="rbz-multilevel-menu__element">Сантехника 2</div>
+            <div class="rbz-multilevel-menu__element">Сантехника 3</div>
+            <div class="rbz-multilevel-menu__element">Сантехника 4</div>
+        </div>
+    </div>
+    <div class="rbz-multilevel-menu__item">
+        <div class="rbz-multilevel-menu__head">Ванны</div>
+        <div class="rbz-multilevel-menu__elements">
+            <div class="rbz-multilevel-menu__element">Ванны 1</div>
+            <div class="rbz-multilevel-menu__element">Ванны 2</div>
+            <div class="rbz-multilevel-menu__element">Ванны 3</div>
+            <div class="rbz-multilevel-menu__element">Ванны 4</div>
+        </div>
+    </div>
+    <div class="rbz-multilevel-menu__item">
+        <div class="rbz-multilevel-menu__head">Душевые поддоны</div>
+        <div class="rbz-multilevel-menu__elements">
+            <div class="rbz-multilevel-menu__element">Душевые поддоны 1</div>
+            <div class="rbz-multilevel-menu__element">Душевые поддоны 2</div>
+            <div class="rbz-multilevel-menu__element">Душевые поддоны 3</div>
+            <div class="rbz-multilevel-menu__element">Душевые поддоны 4</div>
+        </div>
+    </div>
+</div>
+*/?>
+
+
+<?php /*
+<nav>
+    <ul>
+        <li>
+            <a href="#">
+                About
+            </a>
+        </li>
+        <li class="sub-menu">
+            <a href="#">
+                Сантехника
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <ul>
+                <li>
+                    <a href="#">
+                        Сантехника 1
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Сантехника 2
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Сантехника 3
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Сантехника 4
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="sub-menu">
+            <a href="#">
+                Services
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <ul>
+                <li>
+                    <a href="#">
+                        Product Item
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Product Item
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Product Item
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">
+                Contact Us
+            </a>
+        </li>
+    </ul>
+</nav>
+*/

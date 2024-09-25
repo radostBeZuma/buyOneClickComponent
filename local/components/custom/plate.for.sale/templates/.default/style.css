@@ -1,0 +1,15 @@
+.plate-for-sale {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.plate-for-sale__wrap-plates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plate-for-sale__plate {
+    width: 33.3%;
+    height: 150px;
+}
+
