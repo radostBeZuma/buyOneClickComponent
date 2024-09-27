@@ -11,12 +11,12 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
  * @var string $componentPath
  */
 
-echo '<pre>';
+/*echo '<pre>';
 print_r($arResult);
-echo '</pre>';
+echo '</pre>';*/
 ?>
 
-<form action="<?= POST_FORM_ACTION_URI ?>" method="post">
+<form action="<?= POST_FORM_ACTION_URI ?>" method="POST" enctype="multipart/form-data">
     <?php foreach($arResult['ORDER_PROPS'] as $arProp) :?>
         <div>
             <label>
@@ -30,7 +30,7 @@ echo '</pre>';
         </div>
     <?php endforeach; ?>
 
-    <button type="submit">Кнопочка</button>
+    <input type="submit" value="text">
 </form>
 
 

@@ -1,4 +1,11 @@
-<?php if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die(); ?>
+<?php
+
+use Bitrix\Main\Page\Asset;
+
+if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
+
+global $APPLICATION;
+?>
 
 <!DOCTYPE html>
 <html>
@@ -6,9 +13,14 @@
     <?php $APPLICATION->showHead(); ?>
     <title><?php $APPLICATION->showTitle(); ?></title>
     <?php
-    use Bitrix\Main\Page\Asset;
 
-    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/assets/reset.css');
+
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/assets/css/reset.css');
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/assets/css/modal.css');
+
+    Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/assets/js/classes/modalCustom.js');
+
+    Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/assets/js/main.js');
 
     // подключаем строки
     Asset::getInstance()->addString('<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">');

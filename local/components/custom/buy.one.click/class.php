@@ -46,6 +46,10 @@ class CBuyOneClickCustom extends CBitrixComponent
 
         $arOrderProps = $this->getOrderFieldsByPersonType($this->arParams['PERSON_TYPE_ID']);
 
+        echo '<pre>';
+        print_r($_REQUEST);
+        echo '</pre>';
+
         $this->arResult = [
             'ORDER_PROPS' => $arOrderProps,
         ];

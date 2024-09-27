@@ -471,7 +471,11 @@ if (!empty($arParams['LABEL_PROP_POSITION']))
 					</div>
 					<div class="col-sm-6">
 						<div class="product-item-detail-pay-block">
-                            <div class="test">Купить в один клик</div>
+                            <button class="product-item-btn-buy-one-click"
+                                    data-product-id="<?= $arResult['ID'] ?>"
+                                    type="button">
+                                Купить в один клик
+                            </button>
 							<?php
 							foreach ($arParams['PRODUCT_PAY_BLOCK_ORDER'] as $blockName)
 							{
