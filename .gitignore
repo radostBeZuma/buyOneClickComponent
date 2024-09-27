@@ -76,6 +76,7 @@ ehthumbs.db
 *.psb
 *.sketch
 core.*
+*.docx
 
 # храним robots.txt
 !/robots.txt
